@@ -1,0 +1,7 @@
+Due to the output from my tests I see that addBack actually adds to the
+front of the list.
+When I call removeBack and removeFront it appears to not do anything cause
+all values that are added remain added and there are no values missing.
+So, I'd have to say they ultimately do nothing to the list unless they check
+if the list is empty or some other component of the list. They don't do what
+is expected though. 
